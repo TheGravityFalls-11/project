@@ -1,0 +1,17 @@
+# Ignore virtual environment
+venv/
+
+# Ignore environment variable file
+.env
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore text outputs (optional)
+*.txt
+
+# Ignore PDF and other uploads (optional)
+*.pdf
+uploads/
