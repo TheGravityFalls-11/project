@@ -13,7 +13,8 @@ llama-index-readers-llama-parse
 chonkie
 
 # Vector DB (optional: choose based on what you're using)
-pinecone-client
+pinecone
+
 
 # LLM
 mistralai==0.4.2
@@ -24,3 +25,4 @@ python-multipart  # for handling file uploads
 
 # Embedding & sentence transformers (optional but often used)
 sentence-transformers
+
