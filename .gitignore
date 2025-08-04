@@ -9,8 +9,7 @@ __pycache__/
 *.pyc
 *.pyo
 
-# Ignore text outputs (optional)
-*.txt
+
 
 # Ignore PDF and other uploads (optional)
 *.pdf
