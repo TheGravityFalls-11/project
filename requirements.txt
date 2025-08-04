@@ -1,0 +1,12 @@
+#Data_extraction
+llama-parse
+python-dotenv
+pandas
+#chunks
+chonkie
+
+#vector_db
+pinecone
+#llm
+mistralai==0.4.2
+groq
