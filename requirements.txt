@@ -4,9 +4,11 @@ python-dotenv
 pandas
 #chunks
 chonkie
+uvicorn
 
 #vector_db
 pinecone
 #llm
 mistralai==0.4.2
+
 groq
