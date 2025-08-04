@@ -1,6 +1,8 @@
 import os
-from llama_parse import LlamaParse
 from dotenv import load_dotenv
+from llama_index.readers.llama_parse import LlamaParse  # ✅ Corrected import
+
+# Load environment variables
 load_dotenv()
 os.environ["LLAMA_CLOUD_API_KEY"] = os.getenv("LLAMA_CLOUD_API_KEY")
 
