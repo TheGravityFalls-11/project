@@ -1,14 +1,26 @@
-#Data_extraction
-llama-parse
+# Core
+fastapi
+uvicorn
 python-dotenv
 pandas
-#chunks
+
+# LlamaParse integration
+llama-index
+llama-parse
+llama-index-readers-llama-parse
+
+# Chunking
 chonkie
-uvicorn
 
-#vector_db
-pinecone
-#llm
+# Vector DB (optional: choose based on what you're using)
+pinecone-client
+
+# LLM
 mistralai==0.4.2
-
 groq
+
+# File handling
+python-multipart  # for handling file uploads
+
+# Embedding & sentence transformers (optional but often used)
+sentence-transformers
